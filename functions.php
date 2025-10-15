@@ -3,7 +3,7 @@
  * Theme functions and definitions.
  * @author     arkenon
  * @copyright  (c) Copyright by Kadim Gültekin
- * @link       https://fleks.com
+ * @link       https://fleks.iyziweb.site
  * @package    Fleks Block Theme
  * @since      1.0.0
  */

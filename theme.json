@@ -591,21 +591,6 @@
       "area": "uncategorized",
       "name": "comments",
       "title": "Comments"
-    },
-    {
-      "area": "uncategorized",
-      "name": "page-content",
-      "title": "Page Content"
-    },
-    {
-      "area": "uncategorized",
-      "name": "post-content",
-      "title": "Post Content"
-    },
-    {
-      "area": "uncategorized",
-      "name": "archive-content",
-      "title": "Archive Content"
     }
   ]
 }
