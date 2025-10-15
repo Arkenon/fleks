@@ -44,7 +44,7 @@
                  style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)">
                 <!-- wp:button -->
                 <div class="wp-block-button">
-                    <a class="wp-block-button__link wp-element-button" href="http://eternity.test"> <?php echo esc_html__('Go to homepage.','fleks') ?> </a>
+                    <a class="wp-block-button__link wp-element-button" href="<?php echo esc_url('#'); ?>"> <?php echo esc_html__('Go to homepage.','fleks') ?> </a>
                 </div>
                 <!-- /wp:button -->
             </div>

@@ -24,8 +24,8 @@ if ( ! function_exists( "fleks_block_pattern_categories" ) ) {
 
 		$pattern_categories = [
 			[
-				"slug"  => "fleks-homepages",
-				"label" => __( "Fleks: Home Pages", 'fleks' )
+				"slug"  => "fleks-front-pages",
+				"label" => __( "Fleks: Front Pages", 'fleks' )
 			],
 			[
 				"slug"  => "fleks-pricing",

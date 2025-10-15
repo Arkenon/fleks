@@ -2,6 +2,7 @@
 /**
  * Title: Empty Section
  * Slug: fleks/empty-section
+ *
  */
 ?>
 
