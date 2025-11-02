@@ -40,7 +40,7 @@
             <div class="wp-block-group">
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"2"}},"textColor":"contrast"} -->
                 <p class="has-text-align-center has-contrast-color has-text-color"
-                   style="line-height:2"><?php echo esc_html__("Fleks offers pre-built templates, a variety of patterns, color palettes and more. Create your digital masterpiece in minutes!", "fleks") ?></p>
+                   style="line-height:2">Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et.</p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:group -->

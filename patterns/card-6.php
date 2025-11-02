@@ -13,8 +13,8 @@
     <div class="wp-block-columns alignwide">
         <!-- wp:column -->
         <div class="wp-block-column">
-            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
+            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
                 <img class="wp-block-cover__image-background wp-image-121" alt="<?php echo esc_attr__('Dotted background image','fleks'); ?>" src="<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container">
@@ -47,8 +47,8 @@
         <!-- /wp:column -->
         <!-- wp:column -->
         <div class="wp-block-column">
-            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
+            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
                 <img class="wp-block-cover__image-background wp-image-121" alt="<?php echo esc_attr__('Dotted background image','fleks'); ?>" src="<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container">
@@ -81,8 +81,8 @@
         <!-- /wp:column -->
         <!-- wp:column -->
         <div class="wp-block-column">
-            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
+            <!-- wp:cover {"url":"<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>","id":121,"dimRatio":0,"style":{"border":{"radius":"25px","width":"1px"}},"borderColor":"soft","className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow has-soft-border-color" style="border-width:1px;border-radius:25px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span>
                 <img class="wp-block-cover__image-background wp-image-121" alt="<?php echo esc_attr__('Dotted background image','fleks'); ?>" src="<?php echo esc_url(FLEKS_URI.'/assets/img/dotted_bg.png') ?>" data-object-fit="cover" />
                 <div class="wp-block-cover__inner-container">

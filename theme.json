@@ -583,6 +583,11 @@
       "title": "Footer"
     },
     {
+      "area": "footer",
+      "name": "footer-with-columns",
+      "title": "Footer With Columns"
+    },
+    {
       "area": "uncategorized",
       "name": "sidebar",
       "title": "Sidebar"

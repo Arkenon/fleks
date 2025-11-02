@@ -17,6 +17,15 @@ define( 'FLEKS_VERSION', wp_get_theme()->get( 'Version' ) );
 define( 'FLEKS_DIR', get_template_directory() );
 define( 'FLEKS_URI', get_template_directory_uri() );
 
+if ( ! function_exists( "fleks_enqueue_styles" ) ) {
+
+    function fleks_enqueue_styles(): void {
+        wp_enqueue_style( 'fleks', get_template_directory_uri(). '/style.css' );
+    }
+    add_action( 'wp_enqueue_scripts', 'fleks_enqueue_styles' );
+
+}
+
 if ( ! function_exists( "fleks_block_pattern_categories" ) ) {
 
 	function fleks_block_pattern_categories(): void

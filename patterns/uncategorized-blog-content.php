@@ -1,11 +1,13 @@
 <?php
 /**
- * Title: Archive Content
- * Slug: fleks/archive-content
+ * Title: Blog Content
+ * Slug: fleks/blog-content
  */
 ?>
 
-<!-- wp:query-title {"type":"archive","textAlign":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /-->
+<!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html__('Blog','fleks') ?></h2>
+<!-- /wp:heading -->
 <!-- wp:group {"tagName":"section","align":"wide","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignwide">
     <!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"perPage":10},"align":"wide","layout":{"type":"default"}} -->

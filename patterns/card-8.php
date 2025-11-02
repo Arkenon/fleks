@@ -13,8 +13,8 @@
     <div class="wp-block-columns alignwide">
         <!-- wp:column {"style":{"border":{"width":"0px","style":"none"}}} -->
         <div class="wp-block-column" style="border-style:none;border-width:0px">
-            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow" style="border-style:none;border-width:0px">
+            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow" style="border-style:none;border-width:0px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim has-background-gradient has-primary-to-black-gradient-background"></span>
                 <div class="wp-block-cover__inner-container">
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","layout":{"type":"constrained"}} -->
@@ -40,8 +40,8 @@
         <!-- /wp:column -->
         <!-- wp:column {"style":{"border":{"width":"0px","style":"none"}}} -->
         <div class="wp-block-column" style="border-style:none;border-width:0px">
-            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow" style="border-style:none;border-width:0px">
+            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow" style="border-style:none;border-width:0px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim has-background-gradient has-primary-to-black-gradient-background"></span>
                 <div class="wp-block-cover__inner-container">
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","layout":{"type":"constrained"}} -->
@@ -67,8 +67,8 @@
         <!-- /wp:column -->
         <!-- wp:column {"style":{"border":{"width":"0px","style":"none"}}} -->
         <div class="wp-block-column" style="border-style:none;border-width:0px">
-            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-eternitywp-box-shadow"} -->
-            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-eternitywp-box-shadow" style="border-style:none;border-width:0px">
+            <!-- wp:cover {"dimRatio":80,"gradient":"primary-to-black","style":{"border":{"width":"0px","style":"none"}},"className":"has-border-color has-contrast-border-color is-style-fleks-box-shadow"} -->
+            <div class="wp-block-cover has-border-color has-contrast-border-color is-style-fleks-box-shadow" style="border-style:none;border-width:0px">
                 <span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim has-background-gradient has-primary-to-black-gradient-background"></span>
                 <div class="wp-block-cover__inner-container">
                     <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","layout":{"type":"constrained"}} -->

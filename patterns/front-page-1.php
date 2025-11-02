@@ -4,7 +4,7 @@
  * Slug: fleks/front-page-1
  * Description: A front page pattern with a hero section, features, testimonials, and a call to action.
  * Categories: fleks-front-pages
- * Keywords: Front Page, Hero, Features, Testimonials, Call to Action
+ * Keywords: Front Page, Home Page
  */
 ?>
 
@@ -26,13 +26,11 @@
                 </h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":1.6}},"fontSize":"x-small"} -->
-                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">
-                    <?php echo esc_html__('It is very easy to build your website with patterns. Fleks has more than 40 patterns to save your time when designing.', 'fleks'); ?>
-                </p>
+                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast"}}}}},"textColor":"primary","fontSize":"x-small"} -->
                 <p class="has-text-align-center has-primary-color has-text-color has-link-color has-x-small-font-size" style="font-style:normal;font-weight:700">
-                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE OUR THEME', 'fleks'); ?></a> ⮞
+                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE', 'fleks'); ?></a> ⮞
                 </p>
                 <!-- /wp:paragraph -->
             </div>
@@ -48,13 +46,11 @@
                 </h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":1.6}},"fontSize":"x-small"} -->
-                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">
-                    <?php echo esc_html__('Explore color palettes where rich contrasts meet elegant tones for a versatile and stylish experience and choose your mood.', 'fleks'); ?>
-                </p>
+                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast"}}}}},"textColor":"primary","fontSize":"x-small"} -->
                 <p class="has-text-align-center has-primary-color has-text-color has-link-color has-x-small-font-size" style="font-style:normal;font-weight:700">
-                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE OUR THEME', 'fleks'); ?></a> ⮞
+                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE', 'fleks'); ?></a> ⮞
                 </p>
                 <!-- /wp:paragraph -->
             </div>
@@ -70,13 +66,11 @@
                 </h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":1.6}},"fontSize":"x-small"} -->
-                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">
-                    <?php echo esc_html__('Unleash creativity with our variety of page templates that provide a seamless and customizable experience for your theme.', 'fleks'); ?>
-                </p>
+                <p class="has-text-align-center has-x-small-font-size" style="line-height:1.6">Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.</p>
                 <!-- /wp:paragraph -->
                 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"},":hover":{"color":{"text":"var:preset|color|contrast"}}}}},"textColor":"primary","fontSize":"x-small"} -->
                 <p class="has-text-align-center has-primary-color has-text-color has-link-color has-x-small-font-size" style="font-style:normal;font-weight:700">
-                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE OUR THEME', 'fleks'); ?></a> ⮞
+                    <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('EXPLORE', 'fleks'); ?></a> ⮞
                 </p>
                 <!-- /wp:paragraph -->
             </div>
@@ -389,4 +383,4 @@
     <!-- /wp:group -->
 </main>
 <!-- /wp:group -->
-<!-- wp:template-part {"slug":"footer","theme":"fleks", "area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-with-columns","theme":"fleks", "area":"footer"} /-->
