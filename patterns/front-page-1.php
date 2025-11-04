@@ -98,7 +98,7 @@
                 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
                     <!-- wp:paragraph {"textColor":"black"} -->
                     <p class="has-black-color has-text-color">
-                        <?php echo esc_html__('Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et. Feugiat in fermentum', 'fleks'); ?>
+                        Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in. Auctor augue mauris augue neque gravida in fermentum et. Feugiat in fermentum.
                         <a href="<?php echo esc_url('#'); ?>"><?php echo esc_html__('posuere', 'fleks'); ?></a> urna.
                     </p>
                     <!-- /wp:paragraph -->
@@ -265,7 +265,7 @@
                             <!-- /wp:separator -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
                             <p class="has-text-align-center has-contrast-color has-text-color has-link-color">
-                                <?php echo esc_html__('Shadows, borders, hover effects and the other lots of block styles...', 'fleks'); ?>
+                                Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.
                             </p>
                             <!-- /wp:paragraph -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"x-small"} -->
@@ -299,7 +299,7 @@
                             <!-- /wp:separator -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
                             <p class="has-text-align-center has-contrast-color has-text-color has-link-color">
-                                <?php echo esc_html__('Grids, icons boxes, call to action sections, cards and more...', 'fleks'); ?>
+                                Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.
                             </p>
                             <!-- /wp:paragraph -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"x-small"} -->
@@ -333,7 +333,7 @@
                             <!-- /wp:separator -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
                             <p class="has-text-align-center has-contrast-color has-text-color has-link-color">
-                                <?php echo esc_html__('Custom templates and template parts...', 'fleks'); ?>
+                                Quis viverra nibh cras pulvinar mattis nunc sed. Lacus sed turpis tincidunt id aliquet risus feugiat in.
                             </p>
                             <!-- /wp:paragraph -->
                             <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"x-small"} -->
