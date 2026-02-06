@@ -17,3 +17,350 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 footer {
     margin-block-start: 0!important;
 }
+
+/* Fleks utility effects for Block Style Modifiers */
+.fleks-hover-animate {
+    transition-duration: var(--fleks-motion-duration, 0.3s);
+    transition-timing-function: var(--fleks-motion-ease, ease);
+    transition-property: transform, opacity, filter, box-shadow, color, background-color;
+}
+
+.fleks-duration-fast {
+    --fleks-motion-duration: 0.2s;
+}
+
+.fleks-duration-normal {
+    --fleks-motion-duration: 0.4s;
+}
+
+.fleks-duration-slow {
+    --fleks-motion-duration: 0.7s;
+}
+
+.fleks-ease-in {
+    --fleks-motion-ease: ease-in;
+}
+
+.fleks-ease-out {
+    --fleks-motion-ease: ease-out;
+}
+
+.fleks-ease-in-out {
+    --fleks-motion-ease: ease-in-out;
+}
+
+.fleks-zoom-in {
+    transition: transform var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+    transform: scale(1);
+}
+
+.fleks-zoom-in:hover {
+    transform: scale(1.05);
+}
+
+.fleks-zoom-out {
+    transition: transform var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+    transform: scale(1.05);
+}
+
+.fleks-zoom-out:hover {
+    transform: scale(1);
+}
+
+.fleks-grayscale {
+    filter: grayscale(1);
+}
+
+.fleks-grayscale-hover {
+    transition: filter var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-grayscale-hover:hover {
+    filter: grayscale(1);
+}
+
+.fleks-hover-shadow {
+    transition: box-shadow var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-shadow:hover {
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.fleks-hover-float {
+    transition: transform var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease),
+        box-shadow var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-float:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+}
+
+.fleks-hover-fade {
+    transition: opacity var(--fleks-motion-duration, 0.3s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-fade:hover {
+    opacity: 0.85;
+}
+
+.fleks-hover-blur-bg {
+    position: relative;
+    overflow: hidden;
+}
+
+.fleks-hover-blur-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    backdrop-filter: blur(8px);
+    transition: opacity var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-blur-bg:hover::after {
+    opacity: 1;
+}
+
+.fleks-hover-overlay-light,
+.fleks-hover-overlay-dark,
+.fleks-hover-overlay-gradient {
+    position: relative;
+    overflow: hidden;
+}
+
+.fleks-hover-overlay-light::after,
+.fleks-hover-overlay-dark::after,
+.fleks-hover-overlay-gradient::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity var(--fleks-motion-duration, 0.4s) var(--fleks-motion-ease, ease);
+    pointer-events: none;
+}
+
+.fleks-hover-overlay-light::after {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.fleks-hover-overlay-dark::after {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.fleks-hover-overlay-gradient::after {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.45));
+}
+
+.fleks-hover-overlay-light:hover::after,
+.fleks-hover-overlay-dark:hover::after,
+.fleks-hover-overlay-gradient:hover::after {
+    opacity: 1;
+}
+
+.fleks-reveal-on-hover .fleks-reveal-target {
+    opacity: 0;
+    transform: translateY(6px);
+    transition: opacity var(--fleks-motion-duration, 0.35s) var(--fleks-motion-ease, ease),
+        transform var(--fleks-motion-duration, 0.35s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-reveal-on-hover:hover .fleks-reveal-target {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fleks-hover-highlight {
+    transition: color var(--fleks-motion-duration, 0.3s) var(--fleks-motion-ease, ease),
+        text-shadow var(--fleks-motion-duration, 0.3s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-highlight:hover {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+}
+
+.fleks-hover-glow {
+    transition: box-shadow var(--fleks-motion-duration, 0.3s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-glow:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.fleks-hover-contrast {
+    transition: filter var(--fleks-motion-duration, 0.3s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-hover-contrast:hover {
+    filter: contrast(1.1) saturate(1.1);
+}
+
+.fleks-focus-on-hover > * {
+    opacity: 0.6;
+    transition: opacity var(--fleks-motion-duration, 0.25s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-focus-on-hover > *:hover {
+    opacity: 1;
+}
+
+.fleks-press {
+    transition: transform var(--fleks-motion-duration, 0.2s) var(--fleks-motion-ease, ease);
+}
+
+.fleks-press:active {
+    transform: scale(0.97);
+}
+
+.fleks-is-muted {
+    opacity: 0.6;
+    filter: grayscale(0.2);
+}
+
+.fleks-is-disabled-look {
+    opacity: 0.5;
+    filter: grayscale(0.6);
+    pointer-events: none;
+}
+
+.fleks-fade-in {
+    animation: fleks-fade-in var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-slide-up {
+    animation: fleks-slide-up var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-slide-down {
+    animation: fleks-slide-down var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-slide-left {
+    animation: fleks-slide-left var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-slide-right {
+    animation: fleks-slide-right var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-scale-in {
+    animation: fleks-scale-in var(--fleks-motion-duration, 0.5s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-bounce-in {
+    animation: fleks-bounce-in var(--fleks-motion-duration, 0.7s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-rotate-in {
+    animation: fleks-rotate-in var(--fleks-motion-duration, 0.6s) var(--fleks-motion-ease, ease-out) both;
+}
+
+.fleks-delay-1 {
+    animation-delay: 0.1s;
+}
+
+.fleks-delay-2 {
+    animation-delay: 0.2s;
+}
+
+.fleks-delay-3 {
+    animation-delay: 0.3s;
+}
+
+.fleks-delay-5 {
+    animation-delay: 0.5s;
+}
+
+.fleks-delay-10 {
+    animation-delay: 1s;
+}
+
+@keyframes fleks-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fleks-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fleks-slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fleks-slide-left {
+    from {
+        opacity: 0;
+        transform: translateX(18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fleks-slide-right {
+    from {
+        opacity: 0;
+        transform: translateX(-18px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fleks-scale-in {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fleks-bounce-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fleks-rotate-in {
+    from {
+        opacity: 0;
+        transform: rotate(-3deg) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
