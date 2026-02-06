@@ -37,6 +37,10 @@ if ( ! function_exists( "fleks_block_pattern_categories" ) ) {
 				"label" => __( "Fleks: Front Pages", 'fleks' )
 			],
 			[
+				"slug"  => "fleks-contact-pages",
+				"label" => __( "Fleks: Contact Pages", 'fleks' )
+			],
+			[
 				"slug"  => "fleks-pricing",
 				"label" => __( "Fleks: Pricing", 'fleks' )
 			],
