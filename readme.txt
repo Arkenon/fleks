@@ -3,7 +3,7 @@ Contributors: arkenon
 Requires at least: 6.3
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Fleks offers pre-built templates, a variety of patterns, color palettes and more. Create your digital masterpiece in minutes!
 It is very easy to build your website with patterns. Fleks has more than 40 patterns to save your time when designing.
 
+Fleks strongly recommend the [Block Style Modifiers](https://plugins.svn.wordpress.org/block-style-modifiers) plugin to enhance your block styling experience. Easily apply animations and effects to your blocks with just a few clicks.
+
 == Changelog ==
+
+= 1.0.1 =
+* Added: New patterns.
+* Fixed: UI issues in the templates.
 
 = 1.0.0 =
 * Initial release
