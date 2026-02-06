@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Contact Page#3
- * Slug: fleks/contact-page-3
- * Categories: fleks-contact-pages
- * Keywords: contact, contact page
+ * Title: Contact#3
+ * Slug: fleks/contact-3
+ * Categories: fleks-contact-cards
+ * Keywords: contact, contact page, contact form
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"},"metadata":{"name":"Contact Page#3"}} -->
@@ -48,7 +48,7 @@
                 <h4 class="wp-block-heading"><?php echo esc_html__( 'Sales', 'fleks' ); ?></h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph -->
-                <p><?php echo esc_html__( 'sales@fleks.com', 'fleks' ); ?></p>
+                <p><a href="mailto:hello@yoursite.com">hello@yoursite.com</a></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->
@@ -58,7 +58,7 @@
                 <h4 class="wp-block-heading"><?php echo esc_html__( 'Support', 'fleks' ); ?></h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph -->
-                <p><?php echo esc_html__( 'support@fleks.com', 'fleks' ); ?></p>
+                <p><a href="tel:902125550186">+90 (212) 555 0186</a></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->
@@ -68,7 +68,7 @@
                 <h4 class="wp-block-heading"><?php echo esc_html__( 'Careers', 'fleks' ); ?></h4>
                 <!-- /wp:heading -->
                 <!-- wp:paragraph -->
-                <p><?php echo esc_html__( 'careers@fleks.com', 'fleks' ); ?></p>
+                <p><a href="mailto:careers@yoursite.com">careers@yoursite.com</a></p>
                 <!-- /wp:paragraph -->
             </div>
             <!-- /wp:column -->

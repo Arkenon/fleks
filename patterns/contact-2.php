@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Contact Page#2
- * Slug: fleks/contact-page-2
- * Categories: fleks-contact-pages
- * Keywords: contact, contact page
+ * Title: Contact#2
+ * Slug: fleks/contact-2
+ * Categories: fleks-contact-cards
+ * Keywords: contact, contact page, contact form
  */
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"constrained"},"metadata":{"name":"Contact Page#2"}} -->
@@ -13,8 +13,8 @@
     <div class="wp-block-columns alignwide">
         <!-- wp:column {"width":"40%"} -->
         <div class="wp-block-column" style="flex-basis:40%">
-            <!-- wp:image {"id":0,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
-            <figure class="wp-block-image size-full" style="border-radius:12px"><img src="<?php echo esc_url( FLEKS_URI . '/assets/img/placeholder_vertical.jpg' ); ?>" alt=""/></figure>
+            <!-- wp:image {"id":0,"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"12px"}}} -->
+            <figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( FLEKS_URI . '/assets/img/placeholder_vertical.jpg' ); ?>" alt="" style="border-radius:12px;aspect-ratio:3/4;object-fit:cover"/></figure>
             <!-- /wp:image -->
         </div>
         <!-- /wp:column -->
@@ -32,29 +32,26 @@
                 <div class="wp-block-columns">
                     <!-- wp:column -->
                     <div class="wp-block-column">
-                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
-                        <div class="wp-block-group has-soft-background-color has-background"
-                             style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <!-- wp:heading {"level":4} -->
+                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"},"dimensions":{"minHeight":"200px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
+                        <div class="wp-block-group has-soft-background-color has-background" style="border-radius:10px;min-height:200px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":4} -->
                             <h4 class="wp-block-heading"><?php echo esc_html__( 'Office', 'fleks' ); ?></h4>
                             <!-- /wp:heading -->
+
                             <!-- wp:paragraph -->
                             <p><?php echo esc_html__( '245 Green Street, Istanbul', 'fleks' ); ?></p>
-                            <!-- /wp:paragraph -->
-                        </div>
+                            <!-- /wp:paragraph --></div>
                         <!-- /wp:group -->
                     </div>
                     <!-- /wp:column -->
                     <!-- wp:column -->
                     <div class="wp-block-column">
-                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
-                        <div class="wp-block-group has-soft-background-color has-background"
-                             style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <!-- wp:heading {"level":4} -->
+                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"},"dimensions":{"minHeight":"200px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
+                        <div class="wp-block-group has-soft-background-color has-background" style="border-radius:10px;min-height:200px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":4} -->
                             <h4 class="wp-block-heading"><?php echo esc_html__( 'Call', 'fleks' ); ?></h4>
                             <!-- /wp:heading -->
+
                             <!-- wp:paragraph -->
-                            <p><?php echo esc_html__( '+90 (212) 555 0186', 'fleks' ); ?></p>
+                            <p><a href="tel:902125550186">+90 (212) 555 0186</a></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -62,14 +59,13 @@
                     <!-- /wp:column -->
                     <!-- wp:column -->
                     <div class="wp-block-column">
-                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
-                        <div class="wp-block-group has-soft-background-color has-background"
-                             style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)">
-                            <!-- wp:heading {"level":4} -->
+                        <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"10px"},"dimensions":{"minHeight":"200px"}},"backgroundColor":"soft","layout":{"type":"constrained"}} -->
+                        <div class="wp-block-group has-soft-background-color has-background" style="border-radius:10px;min-height:200px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":4} -->
                             <h4 class="wp-block-heading"><?php echo esc_html__( 'Email', 'fleks' ); ?></h4>
                             <!-- /wp:heading -->
+
                             <!-- wp:paragraph -->
-                            <p><?php echo esc_html__( 'hello@fleks.com', 'fleks' ); ?></p>
+                            <p><a href="mailto:hello@yoursite.com">hello@yoursite.com</a></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
