@@ -12,39 +12,9 @@
     <div class="wp-block-group">
         <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|30"}}}} /-->
         <!-- wp:post-featured-image {"aspectRatio":"16/9"} /-->
-        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-        <div class="wp-block-group">
-            <!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|hover"}}}},"textColor":"hover","fontSize":"x-small"} /-->
-            <!-- wp:post-author-name {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|hover"}}}},"textColor":"hover","fontSize":"x-small"} /-->
-        </div>
-        <!-- /wp:group -->
     </div>
     <!-- /wp:group -->
     <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-    <!-- wp:group {"layout":{"type":"constrained"},"metadata":{"name":"Post Bottom"}} -->
-    <div class="wp-block-group">
-        <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-        <div class="wp-block-group">
-            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"x-small"} -->
-            <div class="wp-block-group has-x-small-font-size">
-                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <p class="has-primary-color has-text-color has-link-color"><?php echo esc_html__('Categories','fleks') ?>:</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:post-terms {"term":"category"} /-->
-            </div>
-            <!-- /wp:group -->
-            <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"},"fontSize":"x-small"} -->
-            <div class="wp-block-group has-x-small-font-size">
-                <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary"} -->
-                <p class="has-primary-color has-text-color has-link-color"><?php echo esc_html__('Tags','fleks') ?>:</p>
-                <!-- /wp:paragraph -->
-                <!-- wp:post-terms {"term":"post_tag"} /-->
-            </div>
-            <!-- /wp:group -->
-        </div>
-        <!-- /wp:group -->
-    </div>
-    <!-- /wp:group -->
     <!-- wp:template-part {"slug":"comments","theme":"fleks"} /-->
 </article>
 <!-- /wp:group -->
