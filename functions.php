@@ -182,3 +182,5 @@ if ( ! function_exists( 'fleks_register_block_styles' ) ) {
 
 	add_action( 'init', 'fleks_register_block_styles' );
 }
+
+require_once FLEKS_DIR . '/inc/block-style-modifiers.php';
