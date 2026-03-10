@@ -2,7 +2,7 @@
 /**
  * Title: Pricing Table#1
  * Slug: yegos-web/pricing-table-1
- * Categories: yegos-web-pricing
+ * Categories: fleks-pricing
  * Keywords: pricing, pricing table, price, plans, packages
  */
 ?>
