@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Light Sage",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#FFFEFD",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#18191a",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#5F8A6C",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#70A07E",
+          "name": "Hover",
+          "slug": "hover"
+        },
+        {
+          "color": "#EBF3EC",
+          "name": "Soft",
+          "slug": "soft"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--font-poppins)",
+      "fontSize": "var(--wp--preset--font-size--small)"
+    }
+  }
+}

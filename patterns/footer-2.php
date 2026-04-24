@@ -39,7 +39,7 @@
 
             <!-- wp:group {"style":{"spacing":{"blockGap":"8px"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
             <div class="wp-block-group has-base-color has-text-color has-link-color">
-                <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#18191a","iconBackgroundColor":"soft","iconBackgroundColorValue":"#f0f9ee","openInNewTab":true,"showLabels":true,"className":"is-style-pill-shape","style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+                <!-- wp:social-links {"iconColor":"base","iconColorValue":"#18191a","iconBackgroundColor":"contrast","iconBackgroundColorValue":"#18191a","openInNewTab":true,"showLabels":true,"className":"is-style-pill-shape","style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
                 <ul class="wp-block-social-links has-visible-labels has-icon-color has-icon-background-color is-style-pill-shape">
                     <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"facebook","label":""} /-->
 

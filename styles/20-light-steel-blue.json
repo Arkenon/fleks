@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Light Steel Blue",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#FFFEFD",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#18191a",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#4A7FA5",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#5A92BA",
+          "name": "Hover",
+          "slug": "hover"
+        },
+        {
+          "color": "#EAF2F8",
+          "name": "Soft",
+          "slug": "soft"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--font-poppins)",
+      "fontSize": "var(--wp--preset--font-size--small)"
+    }
+  }
+}
