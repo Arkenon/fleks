@@ -7,7 +7,7 @@ Description: Fleks offers pre-built templates, a variety of patterns, color pale
 Requires at least: 6.3
 Tested up to: 6.9
 Requires PHP: 7.4
-Version: 1.0.3
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: fleks
@@ -15,5 +15,17 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 
 footer {
-    margin-block-start: 0!important;
+    margin-block-start: 0 !important;
+}
+
+@media only screen and (max-width: 780px) {
+    .is-style-fleks-hide-on-tablet {display: none;}
+}
+
+@media only screen and (max-width: 600px) {
+    .is-style-fleks-hide-on-mobile {display: none;}
+}
+
+@media only screen and (max-width: 600px) {
+    .is-style-fleks-row-reverse-on-mobile {flex-direction: row-reverse;}
 }

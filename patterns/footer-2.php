@@ -1,8 +1,9 @@
 <?php
+
 /**
  * Title: Footer#2
  * Slug: fleks/footer-2
- * Categories: footers
+ * Categories: footer
  * Keywords: Footer, columns, logo, title, tagline, links
  */
 ?>
@@ -25,8 +26,10 @@
             <!-- wp:query {"queryId":20,"query":{"perPage":7,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":{"category":[5]},"parents":[],"format":[]}} -->
             <div class="wp-block-query"><!-- wp:post-template -->
                 <!-- wp:post-title {"level":3,"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"},":hover":{"color":{"text":"var:preset|color|soft"}}}}},"textColor":"cyan-bluish-gray","fontSize":"x-small"} /-->
-                <!-- /wp:post-template --></div>
-            <!-- /wp:query --></div>
+                <!-- /wp:post-template -->
+            </div>
+            <!-- /wp:query -->
+        </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"width":"25%"} -->
@@ -35,8 +38,10 @@
             <!-- /wp:heading -->
 
             <!-- wp:group {"style":{"spacing":{"blockGap":"8px"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
-            <div class="wp-block-group has-base-color has-text-color has-link-color"><!-- wp:social-links {"openInNewTab":true,"showLabels":true,"className":"is-style-default","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-                <ul class="wp-block-social-links has-visible-labels is-style-default"><!-- wp:social-link {"url":"#","service":"facebook","label":""} /-->
+            <div class="wp-block-group has-base-color has-text-color has-link-color">
+                <!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#18191a","iconBackgroundColor":"soft","iconBackgroundColorValue":"#f0f9ee","openInNewTab":true,"showLabels":true,"className":"is-style-pill-shape","style":{"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+                <ul class="wp-block-social-links has-visible-labels has-icon-color has-icon-background-color is-style-pill-shape">
+                    <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"facebook","label":""} /-->
 
                     <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"instagram","label":""} /-->
 
@@ -44,9 +49,12 @@
 
                     <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"youtube","label":""} /-->
 
-                    <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"linkedin"} /--></ul>
-                <!-- /wp:social-links --></div>
-            <!-- /wp:group --></div>
+                    <!-- wp:social-link {"url":"<?php echo esc_url('#'); ?>","service":"linkedin"} /-->
+                </ul>
+                <!-- /wp:social-links -->
+            </div>
+            <!-- /wp:group -->
+        </div>
         <!-- /wp:column -->
 
         <!-- wp:column {"width":"25%"} -->
@@ -58,10 +66,14 @@
             <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
                 <div class="wp-block-group"><!-- wp:paragraph -->
                     <p>info@yoursite.com</p>
-                    <!-- /wp:paragraph --></div>
-                <!-- /wp:group --></div>
-            <!-- /wp:group --></div>
-        <!-- /wp:column --></div>
+                    <!-- /wp:paragraph -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:column -->
+    </div>
     <!-- /wp:columns -->
 
     <!-- wp:spacer {"height":"25px"} -->
@@ -70,5 +82,6 @@
 
     <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|soft"}}}},"textColor":"soft","fontSize":"x-small"} -->
     <p class="has-text-align-center has-soft-color has-text-color has-link-color has-x-small-font-size"><?php echo esc_html__("Powered with WordPress", "fleks"); ?></p>
-    <!-- /wp:paragraph --></div>
+    <!-- /wp:paragraph -->
+</div>
 <!-- /wp:group -->

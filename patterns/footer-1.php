@@ -1,8 +1,9 @@
 <?php
+
 /**
  * Title: Footer#1
  * Slug: fleks/footer-1
- * Categories: footers
+ * Categories: footer
  * Keywords: Footer, columns, logo, title, tagline, links
  */
 ?>
@@ -20,7 +21,8 @@
             <p class="has-text-align-center"><?php echo esc_html__('Pages', 'fleks'); ?></p>
             <!-- /wp:paragraph -->
 
-            <!-- wp:navigation {"ref":4,"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} /--></div>
+            <!-- wp:navigation {"ref":4,"overlayMenu":"never","style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} /-->
+        </div>
         <!-- /wp:column -->
 
         <!-- wp:column -->

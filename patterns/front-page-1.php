@@ -8,7 +8,6 @@
  */
 ?>
 
-<!-- wp:template-part {"slug":"header-with-hero", "theme": "fleks", "area":"header"} /-->
 <!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"},"metadata":{"name":"Main Wrapper"}} -->
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0">
     <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"layout":{"type":"constrained"},"metadata":{"name":"Icon Cards#1"}} -->
@@ -383,4 +382,3 @@
     <!-- /wp:group -->
 </main>
 <!-- /wp:group -->
-<!-- wp:template-part {"slug":"footer-with-columns","theme":"fleks", "area":"footer"} /-->
